@@ -11,7 +11,7 @@ from tensorflow.keras.layers import Dense
 from sklearn.metrics import mean_absolute_error,mean_squared_error
 from tensorflow.keras.models import load_model
 
-df = pd.read_csv('D:/Python_advanced/TensorFlow_FILES/DATA/fake_reg.csv')
+df = pd.read_csv('fake_reg.csv')
 print(df.info)
 
 plt.figure(1)
